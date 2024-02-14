@@ -1,6 +1,7 @@
 import React from 'react'
 import axios from 'axios'
-
+import { slice as AuthSlice } from '../store/features/authSlice'
+import { UseDispatch,useSelector } from 'react-redux'
 const Login = () => {
 
     const handleClick = async()=>{
