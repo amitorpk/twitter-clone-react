@@ -9,7 +9,7 @@ export const AppRoutes = () => {
   return (
    
       <Routes>
-        {!isLoggedIn ? (<Route path='/auth/*' Component={AuthNav}/>) : ''}
+        <Route path='/auth/*' Component={AuthNav}/>
         <Route exact path="/" Component={Home} />
         
   
